@@ -10,7 +10,7 @@ const Header = () => {
     <header className="flex justify-around items-center py-5">
         <h1>Bilguun</h1>
     <div className="flex ">
-        <div className="flex justify-between">
+        <div className="flex justify-between gap-10 ">
             <Link href="/">HOME</Link>
             <Link href="/">SERVICES</Link>
             <Link href="/">RESUME</Link>
@@ -19,7 +19,7 @@ const Header = () => {
             <Link href="/">CONTACT</Link>
             <Link href="/">PAGES</Link>
         </div>
-        <div className="flex">
+        <div className="flex gap-3 px-10">
             <BsFacebook />
             <BsGithub />
             <BsInstagram />
