@@ -1,9 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import { BsFacebook } from 'react-icons/Bs';
-import { BsGithub } from 'react-icons/Bs';
-import { BsInstagram } from 'react-icons/Bs';
-import { BsTwitter } from 'react-icons/Bs';
 
 const Header = () => {
   return (
@@ -20,10 +16,6 @@ const Header = () => {
             <Link href="/">PAGES</Link>
         </div>
         <div className="flex gap-3 px-10">
-            <BsFacebook />
-            <BsGithub />
-            <BsInstagram />
-            <BsTwitter />
         </div>
     </div>
     </header>
